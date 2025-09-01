@@ -1,0 +1,136 @@
+# Query: b
+# ContextLines: 1
+
+96 results - 1 file
+
+E:\الجامعه\مستوى الثالث\الترم الاول\ويب\الزيرو الويب\الواجبات\index.html:
+    7      <style type="text/css">
+    8:         body{
+    9:             /* background-image: url(background.png),url(background.png); */
+   10:          font: italic bold 15px serif;
+   11:          color: rgb(255, 249, 249);
+   12     
+
+   14              
+   15:             font-weight: bold; */
+   16          }
+   17:         .box1{
+   18              padding-top: 50px;
+
+   20              height: 2050px;
+               /* background:transparent url('rg.jpg') repeat-x   fixed; */
+   22:             background-size: 1100px 800px;
+   23:             /* background: rgb(147, 204, 242); */
+   24:             border-radius: 30px;
+   25:             box-shadow: 10px 10px 10px rgb(166, 184, 65);
+   26:             /* border: 10px solid rgb(223, 210, 210); */
+   27  
+   28          }
+   29:         .box4{
+   30              /* padding: 150px; */
+
+   32               padding-top: 150px;
+   33:            /* background-image: url(rg.jpg); */
+   34:            /* background-repeat:repeat-x; */
+   35: /* background: -webkit-radial-gradient(top,rgb(0, 0, 0) 50% ,#333 ,#b37615 20px); */
+   36              margin-top: 20px;
+   37:             background: -webkit-radial-gradient(20% 50% ,circle,rgb(130, 96, 19) , white,rgb(192, 148, 4),red);
+   38          }
+
+   42              padding-top: 5px;
+   43:             border-radius: 30px;
+   44  
+   45:             box-shadow: 16px 20px 10px rgb(173, 145, 145);
+   46:             /* border: 10px solid rgb(223, 210, 210); */
+   47  
+   48:               /* border-image: url(rg.jpg) 30 100 20 repeat; */
+   49:             background:transparent url('rg.jpg') repeat-x   fixed;
+   50  
+   51:             /* background-color: rgb(221, 171, 105); */
+   52              width: 500px;
+
+   57          .pa{
+   58:             border-radius: 20px;
+   59              
+   60  
+   61:             /* border: 10px solid rgb(223, 210, 210); */
+   62  
+   63:             /* border-top-width: thick;
+   64:             border-right-width: thick;
+   65:             border-bottom-width: thick;     
+   66:             border-left-width: medium;      */
+   67:             border-width: thick thick thick medium;
+   68:             border-style: ridge groove groove ridge;
+   69:             border-color: rgb(221, 171, 105);
+   70:             /* background: rebeccapurple; */
+   71:             /* background:transparent url('rg.jpg') repeat-x   fixed; */
+   72:             box-shadow: 10px 10px 10px rgb(98, 91, 60);
+   73  
+
+   78              padding: 20px;
+   79:             color: rgb(255, 255, 255);
+   80  
+
+   82              word-spacing: 10px;
+   83:             /* text-shadow: 10px 10px 10px rgb(9, 1, 1); */
+   84  
+
+   86          .io{
+   87:             /* background: rebeccapurple; */
+   88:             background:transparent url('rg.jpg') repeat-y   fixed;
+   89              width: 400px ; 
+
+   97              margin: 20px;
+   98:             border-radius: 20px;
+   99:             border: 1px solid rgb(223, 210, 210);
+  100            
+  101:             outline:2px ridge  rgb(103, 102, 89);
+  102              text-overflow:string;
+
+  116          }
+  117:         .box5{
+  118              margin-top: 50px;
+  119          }
+  120:         /* .box4{
+  121              margin: 0 auto;
+
+  124  </head>
+  125: <body>
+  126:  <div class="box1">
+  127:      <div class="box5">
+  128:       <p class="pa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quod voluptate debitis sapiente officia pariatur nisi neque porro nam. Praesentium? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, consequuntur.</p>
+  129      
+  130    </div>
+  131:   <br>
+  132:   <br>
+  133:   <br>
+  134    <hr>
+  135:    <div class="box2">
+  136        <p class="io">Lorem, ipsum dolor sit amet consectetur adipisicing.
+  137:          elit. Rerum quod voluptate debitis sapiente officia.
+  138            pariatur nisi neque porro nam.
+
+  142    </div>
+  143:   <br><br>
+  144    <hr>
+  145:    <div class="box3" style="background-image: url(rg.jpg) ;">
+  146:            <p class="re">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quod voluptate debitis sapiente officia pariatur nisi neque porro nam. Praesentium? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, consequuntur.</p>
+  147     </div>
+  148:    <br>
+  149:    <br><hr>
+  150:    <div class="box4">
+  151     
+  152:          <table border="5" cellpadding="10" style="border-collapse: collapse; text-align: center;color: black; background: rgb(255, 255, 255);" >
+  153          <tr>
+
+  166          </tr>
+  167:     </table>
+  168  
+  169   </div>
+  170:  <br><br><hr>
+  171:  <div style="background: red url('rg.jpg') repeat-y top  ;background-size: 500px 400px;">
+  172:     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsum odit. Accusamus at unde modi distinctio, reprehenderit nulla vitae tempore voluptate nihil impedit molestiae assumenda quae, laboriosam quidem beatae cupiditate.
+  173      </p>
+  174   </div>
+  175: </body>
+  176  </html>

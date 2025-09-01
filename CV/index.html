@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="box">
+            <nav>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="contains">
+
+                <div class="section-1">
+                    <h1><span style="padding-left: 200px;">مرحبا انا </span></h><hr><br><span >  أنس خليل علي  </span>  </h1>
+                    <h3>مطور الواجهات </h3>
+                    <p>High level experience in web design and
+                        development knowledge,producing quality work.</p>
+                    <a class="btn" href="#pro",>المشاريع </a>
+                </div>
+
+                <div class="section-2">
+                    <img src="user3.png" alt="">
+                </div>
+
+               
+
+            </div>
+        </div>
+        <div class="box2">
+            <div>
+                <h1 id="pro">مهاراتي </h1>
+                
+            <div>
+                <h2> تطوير  ويب </h2>
+                <p>عندي مهاره في تطوير الويب  التصميم الحترافيه </p>
+            
+            </div>
+            <hr>
+            <div>
+                <h2>قواعد بيانات </h2>
+                <p>عندي معرفه في قواعد البيانات ولا كن ليست بتعمق </p>
+            </div>
+            <hr>
+             <div>
+                <h2>برمجة </h2>
+                <p>فااهم اساسيات البرمجه  </p>
+            </div>
+            <hr>
+             <div>
+                <h2>اساسيات الحاسوب  </h2>
+                <p>:فااهم اساسيات الحاسوب وامتلك شهاده دوليه    </p>
+                <span> <a href="#">  good</a></span>
+            </div>
+            </div>
+
+        </div>
+         <div class="box3"><section class="contact" aria-label="معلومات التواصل">
+<h4>تواصل</h4>
+<div class="item">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 12.713 0 5.25V18a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V5.25L12 12.713zM12 11 0 3h24L12 11z"/></svg>
+<span>anas@gaimel.com</span>
+</div>
+<div class="item">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.054 15.054 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.11.37 2.3.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.49a1 1 0 0 1 1 1c0 1.28.2 2.47.57 3.58a1 1 0 0 1-.25 1.01l-2.19 2.2z"/></svg>
+<span>+967 779862624</span>
+</div>
+<div class="item">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C7.03 2 3 6.03 3 11c0 6.08 7.47 10.61 8.42 11.16.36.21.8.21 1.16 0C13.53 21.61 21 17.08 21 11c0-4.97-4.03-9-9-9zm0 12.5A3.5 3.5 0 1 1 12 7.5a3.5 3.5 0 0 1 0 7z"/></svg>
+<span>إب, اليمن</span>
+</div>
+</section>
+
+
+
+
+
+<!-- زر للعودة للأعلى -->
+<div class="back-to-top" id="backToTop" aria-hidden="true">
+<button type="button" aria-label="العودة للأعلى" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+↑ للأعلى
+</button>
+</div>
+
+
+<script>
+// سنة ديناميكية
+document.getElementById('year').textContent = new Date().getFullYear();
+
+
+// إظهار زر العودة للأعلى بعد التمرير
+const btt = document.getElementById('backToTop');
+const toggleBtt = () => {
+if (window.scrollY > 300) { btt.classList.add('show'); btt.setAttribute('aria-hidden','false'); }
+else { btt.classList.remove('show'); btt.setAttribute('aria-hidden','true'); }
+};
+window.addEventListener('scroll', toggleBtt, {passive:true});
+toggleBtt();
+</script>
+
+
+</body>
+</html></div>
+    </div>
+   
+
+</body>
+</html>

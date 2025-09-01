@@ -1,0 +1,255 @@
+body{
+    /* width: 2000px; */
+    height: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.container{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background: url(imge1.jpg);
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{ 
+    height: auto;
+    width: 90%;
+    padding: 20px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 10; 
+    display: block; 
+    margin: 50px;
+   margin-bottom: 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+}
+
+.nav{
+     height: 7%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    background-color: wheat;
+  
+}
+nav ul{
+  /* box-shadow: 3px 3px 5px rgba(255, 253, 253, 0.696); */
+    width:auto ;
+    list-style: none;
+    display :flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    height: 50px;
+
+
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+          box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.1);
+
+}
+nav a:hover{
+   /* background-color: rgb(255, 255, 255); */
+   border-radius: 200px;
+  text-decoration: none;
+  box-shadow: 3px 3px 5px rgba(102, 185, 191, 0.769);
+
+
+}
+
+
+.container .box .contains{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 80px;
+}
+.contains .section-1{
+    position: relative;
+    width: 40%;
+}
+.contains .section-1 h1{
+    margin-bottom: 40px;
+    margin-left:35px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fdfcff;
+    
+}
+.contains .section-1 h1 span{
+    margin-left: 150px;
+}
+.contains .section-1 h3{
+    color: #010000;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    font-size: 24px;
+}
+.contains .section-1 p{
+    font-size: 18px;
+    color: #002b07;
+    margin-bottom: 50px;
+    backdrop-filter:inherit;
+
+}
+.contains .section-1 .btn{
+    padding: 15px 20px;
+    background-color: #6f34fe;
+    border: 1px solid #6f34fe;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.contains .section-1 .btn:hover{
+    color: #6f34fe;
+    transition: 0.3s;
+    background-color: #cdddf3;
+    border: 1px solid ;
+}
+.contains .section-2{
+    width: 40%;
+    margin-right: 50px;
+}
+.contains .section-2 img{
+    width: 80%;
+}
+.contains .section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    left: 10px;
+    top: 30%;
+}
+.contains .section-3 a i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #7c8bd1;
+    transition: 0.3s;
+}
+.contains .section-3 i:hover{
+    color: #6f34fe;
+}
+.box2{
+     height: auto;
+    width: 90%;
+    padding: 20px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    /* z-index: 10; */
+    /* display: flex; */
+   margin: 50px;
+   /* margin-bottom: 50px; */
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+}
+.box2 div{
+    margin: 50px;
+   
+
+}
+.box2 h1{
+    margin-left: 200px;
+    color: rgb(255, 255, 255);
+
+}
+.box2 div h2{
+    color: #fff;
+    margin-left: 350px;
+}
+.box2 div span a{
+    margin-right: 30px;
+    display: inline;
+    background-color: rgb(0, 0, 255);
+    color: #fff;
+}
+.box3{
+     height: 20vh;
+    width: 90%;
+    padding: 20px 20px 20px 200px;
+    background: rgba(255, 255, 255, 0.1);
+    /* z-index: 10; */
+    /* display: flex; */
+   margin: 50px;
+   /* margin-bottom: 50px; */
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+
+.brand{display:flex;align-items:flex-start;gap:16px}
+.logo{width:48px;height:48px;border-radius:12px;background:radial-gradient(120% 120% at 20% 10%, var(--accent), var(--accent-2) 40%, #0ea5e9 85%); box-shadow:0 10px 30px rgba(34,197,94,.25)}
+.brand h3{margin:0 0 6px 0;font-size:1.1rem;letter-spacing:.3px}
+.brand p{margin:0;color:var(--muted);line-height:1.7}
+
+
+.links h4, .contact h4, .news h4{margin:0 0 12px 0;font-size:1rem}
+.links ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.links a{color:var(--text);text-decoration:none;opacity:.9}
+.links a:hover{opacity:1;text-decoration:underline}
+
+
+.contact .item{display:flex;align-items:flex-start;gap:10px;color:var(--muted)}
+.contact .item svg{flex:0 0 20px;margin-top:2px}
+
+
+.news form{display:flex;flex-direction:column;gap:10px}
+.input{background:#0b1220;border:1px solid var(--divider);border-radius:10px;padding:12px 14px;color:var(--text);outline:none}
+.input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(34,197,94,.15)}
+.btn{cursor:pointer;background:var(--accent);border:0;color:#052e16;border-radius:10px;padding:12px 16px;font-weight:700}
+.btn:hover{background:var(--accent-2)}
+
+
+.social{display:flex;gap:12px;margin-top:14px}
+.social a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:10px;border:1px solid var(--divider);background:#0b1220}
+.social a:hover{border-color:var(--accent)}
+.social svg{width:18px;height:18px}
+.sr{position:absolute;left:-9999px}
+
+
+.divider{height:1px;background:var(--divider);margin:28px 0}
+
+
+.bottom{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;color:var(--muted);font-size:.92rem}
+.bottom .mini{display:flex;gap:16px;align-items:center}
+
+
+.back-to-top{position:fixed;inset-inline-end:16px;inset-block-end:16px;opacity:0;visibility:hidden;transition:.25s;}
+.back-to-top button{background:#0b1220;border:1px solid var(--divider);padding:10px 14px;border-radius:9999px;color:var(--text);cursor:pointer}
+.back-to-top button:hover{border-color:var(--accent)}
+.back-to-top.show{opacity:1;visibility:visible}
